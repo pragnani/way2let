@@ -4,6 +4,12 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="way2let-dataaccess-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/way2let-dataaccess/way2let-dataaccess">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="way2let-domain-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/way2let-domain/way2let-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="way2let-services"/>
         <property name="java-output-path" value="/way2let-services/target/classes"/>
     </wb-module>

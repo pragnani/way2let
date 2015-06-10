@@ -11,18 +11,18 @@ public class User {
 	@GeneratedValue
 	private Integer userId;
 
-	private String strEmail;
-	private String strPassword;
-	private String strFullName;
-	private String strProfession;
-	private String strOccupation;
+	private String email;
+	private String password;
+	private String fullname;
+	private String profession;
+	private String occupation;
 	private Integer countryId;
 	private Integer stateId;
 	private Integer cityId;
-	private String strArea;
-	private String strMobileNo;
-	private String strReferrer;
-	private String strCompany;
+	private String area;
+	private String mobile;
+	private String referrer;
+	private String company;
 	private String dealings;
 	private Integer roleId;
 	
@@ -39,10 +39,10 @@ public class User {
 		this.dealings = dealings;
 	}
 	public String getStrCompany() {
-		return strCompany;
+		return company;
 	}
 	public void setStrCompany(String strCompany) {
-		this.strCompany = strCompany;
+		this.company = strCompany;
 	}
 	public Integer getUserId() {
 		return userId;
@@ -51,34 +51,34 @@ public class User {
 		this.userId = userId;
 	}
 	public String getStrEmail() {
-		return strEmail;
+		return email;
 	}
 	public void setStrEmail(String strEmail) {
-		this.strEmail = strEmail;
+		this.email = strEmail;
 	}
 	public String getStrPassword() {
-		return strPassword;
+		return password;
 	}
 	public void setStrPassword(String strPassword) {
-		this.strPassword = strPassword;
+		this.password = strPassword;
 	}
 	public String getStrFullName() {
-		return strFullName;
+		return fullname;
 	}
 	public void setStrFullName(String strFullName) {
-		this.strFullName = strFullName;
+		this.fullname = strFullName;
 	}
 	public String getStrProfession() {
-		return strProfession;
+		return profession;
 	}
 	public void setStrProfession(String strProfession) {
-		this.strProfession = strProfession;
+		this.profession = strProfession;
 	}
 	public String getStrOccupation() {
-		return strOccupation;
+		return occupation;
 	}
 	public void setStrOccupation(String strOccupation) {
-		this.strOccupation = strOccupation;
+		this.occupation = strOccupation;
 	}
 	public Integer getCountryId() {
 		return countryId;
@@ -99,22 +99,22 @@ public class User {
 		this.cityId = cityId;
 	}
 	public String getStrArea() {
-		return strArea;
+		return area;
 	}
 	public void setStrArea(String strArea) {
-		this.strArea = strArea;
+		this.area = strArea;
 	}
 	public String getStrMobileNo() {
-		return strMobileNo;
+		return mobile;
 	}
 	public void setStrMobileNo(String strMobileNo) {
-		this.strMobileNo = strMobileNo;
+		this.mobile = strMobileNo;
 	}
 	public String getStrReferrer() {
-		return strReferrer;
+		return referrer;
 	}
 	public void setStrReferrer(String strReferrer) {
-		this.strReferrer = strReferrer;
+		this.referrer = strReferrer;
 	}
 
 }
